@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b166afce-0bd7-4128-b6b8-7bdf9fdaa178" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/DataExel.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mail/gasimov20177/numberconverter/NumberConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mail/gasimov20177/numberconverter/NumberConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mail/gasimov20177/numberconverter/NumberUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mail/gasimov20177/numberconverter/NumberUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
       <recent name="D:\Java trainee EPAM\ConvertNumberTask\ConvertNumberTask\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumberUtilTest.testGetNameAllTable">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mail.gasimov20177.App" />
       <module name="ConvertNumberTask" />
@@ -134,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NumberUtilTest.testGetNameAllTable" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.NumberUtilTest" />
+        <item itemvalue="JUnit.NumberUtilTest.testGetNameAllTable" />
         <item itemvalue="JUnit.NumberUtilTest.testTens" />
         <item itemvalue="JUnit.NumberUtilTest.testFindNumber" />
-        <item itemvalue="JUnit.NumberUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +151,7 @@
       <updated>1624300544954</updated>
       <workItem from="1624300546400" duration="2290000" />
       <workItem from="1624437442611" duration="5997000" />
-      <workItem from="1624460716339" duration="5432000" />
+      <workItem from="1624460716339" duration="6274000" />
     </task>
     <servers />
   </component>
@@ -190,22 +187,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1624459975824" />
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1624466725305">
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1624467186782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624466725305" />
-    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1624466725305">
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624467186782" />
+    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1624467186782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624466725305" />
-    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1624466725304">
+    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624467186782" />
+    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1624467186782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624466725304" />
-    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1624466725305">
+    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624467186782" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1624467186782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624466725305" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624467186782" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1624464103832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

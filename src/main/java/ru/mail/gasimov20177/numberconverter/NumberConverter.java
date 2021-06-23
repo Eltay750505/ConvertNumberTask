@@ -1,5 +1,6 @@
 package ru.mail.gasimov20177.numberconverter;
 
+import org.apache.xmlbeans.xml.stream.Space;
 import ru.mail.gasimov20177.exception.ConvertNumberException;
 
 import java.io.IOException;
@@ -12,6 +13,8 @@ public class NumberConverter {
     public static final String ZERO = "ноль";
     public static final String PATH = "src\\main\\resources\\data\\guide.txt";
     public static final String SPACE = " ";
+    public static final String MINUS = "минус";
+    public static boolean minus;
     public static final int STRING_CAPACITY;
     public static int level;
 
@@ -30,6 +33,11 @@ public class NumberConverter {
         if (num == 0) {
             return ZERO;
         }
+
+        if (number < 0) {
+            minus = true;
+        }
+
         int currentSegment = (int) (num % 1000);
         int temp = currentSegment % 100;
         int currentDigit100 = currentSegment / 100;
@@ -54,6 +62,9 @@ public class NumberConverter {
             return (getWordsFromNum(nextNum) + " " + words.toString()).trim();
         } else {
             level = 1;
+            if (minus) {
+                words.insert(0, MINUS + SPACE);
+            }
             return words.toString().trim();
         }
 
@@ -63,8 +74,6 @@ public class NumberConverter {
         if (level == 1) {
             return;
         }
-        // if ((currentSegment != 0) || ((currentSegment == 0) && (level == 1)))
-        //     words.append(guide[5][1]);
 
         switch (currentUnit) {
             case 1: {
