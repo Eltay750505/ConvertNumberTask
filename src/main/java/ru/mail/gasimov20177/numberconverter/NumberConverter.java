@@ -46,19 +46,20 @@ public class NumberConverter {
 
         printUnit(level, words, guide, currentUnit);
 
-        printNumClassName(level, words, guide, currentSegment, currentUnit);
+        printNumClassName(level, words, guide, currentUnit);
 
         long nextNum = num / 1000;
         if (nextNum > 0) {
             level++;
             return (getWordsFromNum(nextNum) + " " + words.toString()).trim();
         } else {
+            level = 1;
             return words.toString().trim();
         }
 
     }
 
-    private static void printNumClassName(int level, StringBuilder words, String[][] guide, int currentSegment, int currentUnit) {
+    private static void printNumClassName(int level, StringBuilder words, String[][] guide, int currentUnit) {
         if (level == 1) {
             return;
         }
