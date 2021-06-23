@@ -13,7 +13,7 @@ public class NumberUtilTest {
         int actualNum = 56631761;
         String expected = "пятьдесят шесть миллионов шестьсот тридцать одна тысяча семьсот шестьдесят один";
 
-        String actual = NumberConverter.getWordsFromNum(actualNum, 1);
+        String actual = NumberConverter.getWordsFromNum(actualNum);
 
         assertEquals(MESSAGE, expected, actual);
     }
@@ -23,7 +23,7 @@ public class NumberUtilTest {
         int zero = 0;
         String expected = "ноль";
 
-        String actual = NumberConverter.getWordsFromNum(zero, 1);
+        String actual = NumberConverter.getWordsFromNum(zero);
 
         assertEquals(MESSAGE, actual, expected);
     }
@@ -36,7 +36,7 @@ public class NumberUtilTest {
                 "четырнадцать", "пятнадцать", "шестнадцать", "семнадцать", "восемнадцать", "девятнадцать"};
 
         for (int i = 1; i < 20; i++) {
-            String actual = NumberConverter.getWordsFromNum(i, 1);
+            String actual = NumberConverter.getWordsFromNum(i);
             assertEquals(MESSAGE, actual, expectedWords[i - 1]);
         }
     }
@@ -48,10 +48,8 @@ public class NumberUtilTest {
         int actual[] = new int[]{26, 27, 36, 59, 70, 81, 87, 90, 92};
 
         for (int i = 1; i < 9; i++) {
-            String actualWords = NumberConverter.getWordsFromNum(actual[i], 1);
+            String actualWords = NumberConverter.getWordsFromNum(actual[i]);
             assertEquals(MESSAGE, expectedWords[i], actualWords);
         }
     }
-
-    
 }

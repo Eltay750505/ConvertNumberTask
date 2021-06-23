@@ -6,7 +6,6 @@ import ru.mail.gasimov20177.numberconverter.NumberConverter;
 import java.util.Scanner;
 
 
-
 public class App {
     public static void main(String[] args) throws ConvertNumberException {
         Scanner sc = new Scanner(System.in);
@@ -14,7 +13,7 @@ public class App {
         System.out.print("Введите число: ");
         long number = sc.nextLong();
 
-        String wordsFromNum = NumberConverter.getWordsFromNum(number, 1);
+        String wordsFromNum = NumberConverter.getWordsFromNum(number);
         System.out.println(wordsFromNum);
     }
 }
